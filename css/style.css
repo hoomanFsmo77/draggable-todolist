@@ -1,0 +1,23 @@
+*{
+    font-family: Cairo, sans-serif,Vazir;
+}
+.no-status,.not-started,.completed,.inProgress{
+    height: 400px;
+}
+.addTodo{
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+.addTodo i{
+    font-size: 1.75rem;
+}
+.newTodo{
+    font-size: 1.25rem;
+}
+.newTodo i{
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+div[data-append='0']{
+    background-color: red;
+}
